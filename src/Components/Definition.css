@@ -1,0 +1,26 @@
+.definition {
+  font-size: large;
+  margin: 15px;
+}
+.example {
+  margin: 2px;
+  font-size: large;
+  color: rgb(102, 102, 102);
+}
+.synonym-antonym-div {
+  margin: 15px;
+}
+.Synonym-antonym-heading {
+  margin-right: 5px;
+  font-size: large;
+  color: rgb(102, 102, 102);
+}
+.Synonym-antonym-list-item {
+  font-size: large;
+  color: purple;
+}
+.Synonym-antonym-list-item + .Synonym-antonym-list-item::before {
+  display: inline-block;
+  white-space: pre;
+  content: ", ";
+}

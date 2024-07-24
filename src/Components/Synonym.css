@@ -1,0 +1,9 @@
+.Synonym-list {
+  font-size: larger;
+  color: purple;
+}
+.Synonym-list + .Synonym-list::before {
+  display: inline-block;
+  white-space: pre;
+  content: ", ";
+}

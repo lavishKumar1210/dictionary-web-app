@@ -1,0 +1,14 @@
+.part-of-speech {
+  font-size: larger;
+  font-weight: bold;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+}
+.Synonym-antonym-heading-1 {
+  font-size: larger;
+  padding-right: 10px;
+  color: rgb(102, 102, 102);
+}
+.Meaning-heading {
+  font-size: larger;
+}
